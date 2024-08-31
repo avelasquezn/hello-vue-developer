@@ -4,7 +4,7 @@ import RegisterDeveloper from "./welcoming/components/register-developer.compone
 import Welcome from "./welcoming/components/welcome.component.vue";
 import ShowDeveloperCount from "./welcoming/components/show-developer-count.component.vue";
 
-export default  {
+export default {
   name: 'app',
   components: {ShowDeveloperCount, Welcome, RegisterDeveloper},
   data() {
