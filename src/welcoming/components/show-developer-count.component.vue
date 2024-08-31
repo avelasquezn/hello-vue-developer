@@ -1,4 +1,10 @@
 <script>
+/**
+ * @name show-developer-count
+ * @description
+ * This component is responsible for displaying the number of developers registered.
+ * @prop developerCount {Number} The number of developers registered.
+ */
 export default {
   name: "show-developer-count",
   props: {

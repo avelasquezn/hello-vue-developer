@@ -1,4 +1,11 @@
 <script>
+/**
+ * @name register-developer
+ * @description
+ * This component is responsible for registering a new developer.
+ * It emits an event to the parent component when the form is submitted.
+ * @emits developer-registered
+ */
 export default {
   name: "register-developer",
   data() {
@@ -8,6 +15,12 @@ export default {
     }
   },
   methods: {
+    /**
+     * @name onSubmit
+     * @description
+     * This method is called when the form is submitted.
+     * It emits an event to the parent component with the developer's first and last name.
+     */
     onSubmit() {
       console.log("Registering developer");
       this.$emit( 'developer-registered', { firstName: this.firstName, lastName: this.lastName});
