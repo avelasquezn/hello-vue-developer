@@ -26,6 +26,7 @@ export default {
         <input type="text" id="first-name" v-model="firstName" required/>
       </div>
       <div>
+        <label for="last-name">Last Name</label>
         <input type="text" id="last-name" v-model="lastName" required/>
       </div>
       <div>
